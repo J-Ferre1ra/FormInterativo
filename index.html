@@ -12,20 +12,20 @@
 <body>
     <h1>Formulário de Feedback Interativo</h1>
     <form action="">
-        <input type="text" placeholder="Nome Completo"><br>
-        
-        <label id="estrelas-qtd" for="estrelas-qtd">Avalie com estrelas</label><br>
-        <select name="estrelas-qtd" id="avali-estrelas">
-            <option value="estrela1">1 Estrela</option>
-            <option value="estrela2">2 Estrelas</option>
-            <option value="estrela3">3 Estrelas</option>
-            <option value="estrela4">4 Estrelas</option>
-            <option value="estrela5">5 Estrelas</option>
-        </select><br>
+        <input type="text" id="name" placeholder="  Nome Completo"><br>
+        <div class="div-stars">
+            <label id="stars-qtd" for="stars-qtd">Avalie com estrelas:</label><br>
+            <select name="stars-qtd" id="box-stars">
+                <option value="estrela1">1 Estrela</option>
+                <option value="estrela2">2 Estrelas</option>
+                <option value="estrela3">3 Estrelas</option>
+                <option value="estrela4">4 Estrelas</option>
+                <option value="estrela5">5 Estrelas</option>
+            </select>
+        </div><br>
+        <textarea id="comentary" placeholder="Faça um comentário"></textarea><br>
 
-        <input type="text" placeholder="Faça um comentário"><br>
-
-        <input type="submit" name="Enviar" id="btnEnvio">
+        <input type="submit" name="Enviar" id="btn-submit">
     </form>
 </body>
 </html>
