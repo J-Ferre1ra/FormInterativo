@@ -28,3 +28,8 @@ O objetivo dele é receber a avaliação do usuário, podendo ser anexada a vár
 ## **📄 Próximos Passos**
 -Implementar uma plataforma para usar o Formulário de feedback como uma ferramenta da plataforma.
 -Melhorar o JS
+
+---
+
+## **Acesse o projeto em tempo real**
+https://forminterativo.netlify.app/
